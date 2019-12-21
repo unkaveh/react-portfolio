@@ -18,7 +18,7 @@ const styles = theme => ({
     paddingTop: '10%', 
     paddingBottom: '10%',
     backgroundImage: 'url(' + infoBg + ')',
-    
+    backgroundSize: 'cover',
   },
 });
 
@@ -35,6 +35,7 @@ function InfoBlock(props) {
       <Grid item>
         <InfoCard
           image={educationImg}
+          title='Education'
         >
           <h1>hello</h1>
         </InfoCard>
@@ -42,11 +43,13 @@ function InfoBlock(props) {
       <Grid item>
         <InfoCard
           image={skillImg}
+          title='Skills'
         ></InfoCard>
       </Grid>
       <Grid item>
         <InfoCard
           image={expirenceImg}
+          title='Work'
         ></InfoCard>
       </Grid>
     </Grid>

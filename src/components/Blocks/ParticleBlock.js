@@ -8,11 +8,11 @@ import gradBg from '../../assets/img/backgrounds/grad-bg.png';
 
 const styles = theme => ({
   root: {
-    height: '40vh', 
+    height: '50vh', 
     width: '100vw',
     backgroundImage: 'url(' + gradBg + ')',
     backgroundSize: 'cover',
-    background: 'black',
+    background: theme.colors.salmon,
     clipPath: 'polygon(0 0, 100% 0, 100% 70%, 0 91%)',
     '-webkit-clip-path': 'polygon(0 0, 100% 0, 100% 70%, 0 91%)'
   },

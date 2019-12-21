@@ -7,11 +7,7 @@ import classnames from 'classnames';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import Collapse from '@material-ui/core/Collapse';
-import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 
 const styles = theme => ({
@@ -19,29 +15,6 @@ const styles = theme => ({
     minWidth: 400,
     margin: 20
   },
-  media: {
-    height: 0,
-    paddingTop: '56.25%', // 16:9
-  },
-  actions: {
-    paddingTop: 0,
-    display: 'flex',
-  },
-  expand: {
-    transform: 'rotate(0deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
-      duration: theme.transitions.duration.shortest,
-    }),
-  },
-  expandOpen: {
-    transform: 'rotate(180deg)',
-  },
-  cardIcons: {
-    margin: 10,
-    width: 60,
-    height: 60,
-  }
 });
 
 
@@ -67,7 +40,6 @@ class InfoCard extends React.Component {
       imageTitle, 
       title, 
       subtitle,
-      content
     } = this.props;
 
     return (
@@ -82,24 +54,10 @@ class InfoCard extends React.Component {
           <Typography variant="overline" gutterBottom>
             {subtitle}
           </Typography>
-        </CardContent>
-        <CardActions className={classes.actions} >
-          <IconButton
-            className={classnames(classes.expand, {
-              [classes.expandOpen]: this.state.expanded,
-            })}
-            onClick={this.handleExpandClick}
-            aria-expanded={this.state.expanded}
-            aria-label="Show more"
-          >
-            <ExpandMoreIcon />
-          </IconButton>
-        </CardActions>
-        <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <Typography variant="body2" component="p">
             {this.props.children}
-          </CardContent>
-        </Collapse>
+          </Typography>
+        </CardContent>
       </Card>
     )
   }
