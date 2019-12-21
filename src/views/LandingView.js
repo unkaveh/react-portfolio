@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import Typography from '@material-ui/core/Typography';
 import Navbar from '../components/Navbar/Navbar';
-import ParticleBlock from '../components/ParticleBlock/ParticleBlock';
+import ParticleBlock from '../components/Blocks/ParticleBlock';
 import CenterGrid from '../components/Shared/Partials/CenterGrid';
 import ProfileCard from '../components/ProfileCard/ProfileCard';
-import InfoCard from '../components/InfoCard/InfoCard';
-import Grid from '../components/InfoCard/InfoCard';
+import InfoBlock from '../components/Blocks/InfoBlock';
 
 class NavBar extends Component {
   render() {
@@ -13,20 +12,10 @@ class NavBar extends Component {
       <div>
         <Navbar />
         <ParticleBlock />
-        <CenterGrid>
+        <CenterGrid width='6'>
           <ProfileCard />
         </CenterGrid>
-        <Grid container style={{flexGrow: 1}}>
-          <Grid item xs={4}>
-            <InfoCard><h1>hello</h1></InfoCard>
-          </Grid>
-          <Grid item xs={4}>
-            <InfoCard></InfoCard>
-          </Grid>
-          <Grid item xs={4}>
-            <InfoCard></InfoCard>
-          </Grid>
-        </Grid>
+        <InfoBlock />
       </div>
     )
   }

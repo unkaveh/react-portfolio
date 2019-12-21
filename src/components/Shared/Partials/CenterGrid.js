@@ -6,7 +6,7 @@ import Grid from '@material-ui/core/Grid';
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 40
+    marginTop: '20%'
   },
 });
 
@@ -14,7 +14,7 @@ const styles = theme => ({
 class CenterGrid extends Component {
   
   render() {
-    const {classes} = this.props;
+    const {classes, width} = this.props;
   return (
     <Grid
       container
@@ -23,7 +23,7 @@ class CenterGrid extends Component {
       alignItems="center"
       className={classes.root}
     >
-      <Grid item xs={6}>
+      <Grid item xs={width}>
         {this.props.children}
       </Grid>
     </Grid>
@@ -31,7 +31,8 @@ class CenterGrid extends Component {
 }
 
 CenterGrid.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  width: PropTypes.number
 }
 
 export default withStyles(styles)(CenterGrid)

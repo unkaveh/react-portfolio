@@ -16,7 +16,8 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const styles = theme => ({
   card: {
-    maxWidth: 400
+    minWidth: 400,
+    margin: 20
   },
   media: {
     height: 0,
@@ -72,10 +73,8 @@ class InfoCard extends React.Component {
     return (
       <Card className={classes.card}>
         <CardMedia
-          className={classes.media}
-          image={image}
           title={imageTitle}
-        />
+        ><img src={image} style={{width: '100%'}}/></CardMedia>
         <CardContent style={{paddingBottom: 0}}>
           <Typography variant="h5" gutterBottom>
             {title}
@@ -98,7 +97,7 @@ class InfoCard extends React.Component {
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            {content}
+            {this.props.children}
           </CardContent>
         </Collapse>
       </Card>

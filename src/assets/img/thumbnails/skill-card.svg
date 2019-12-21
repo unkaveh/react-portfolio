@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Skill Card</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Skill-Card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#D40078" x="0" y="0" width="300" height="300"></rect>
+        <rect id="Rectangle" stroke="#650D59" stroke-width="5" transform="translate(150.688900, 147.789774) rotate(45.000000) translate(-150.688900, -147.789774) " x="63.1889" y="60.2897738" width="175" height="175"></rect>
+        <line x1="103.558681" y1="66.5" x2="198.558681" y2="66.5" id="Path" stroke="#650D59" stroke-width="14"></line>
+        <line x1="77" y1="90.5" x2="226" y2="90.5" id="Path" stroke="#650D59" stroke-width="14"></line>
+        <line x1="55" y1="114.5" x2="247" y2="114.5" id="Path" stroke="#650D59" stroke-width="14"></line>
+        <line x1="30.5" y1="138.5" x2="270.5" y2="138.5" id="Path" stroke="#650D59" stroke-width="11"></line>
+        <line x1="36.5" y1="162.5" x2="265.5" y2="162.5" id="Path" stroke="#650D59" stroke-width="11"></line>
+        <line x1="55" y1="186.5" x2="247" y2="186.5" id="Path" stroke="#650D59" stroke-width="7"></line>
+        <line x1="77" y1="202.5" x2="226" y2="202.5" id="Path" stroke="#650D59" stroke-width="7"></line>
+        <line x1="85.5" y1="213.5" x2="216.5" y2="213.5" id="Path" stroke="#650D59" stroke-width="3"></line>
+        <line x1="89.5" y1="218.5" x2="211.5" y2="218.5" id="Path" stroke="#650D59" stroke-width="3"></line>
+        <line x1="95" y1="223.5" x2="205" y2="223.5" id="Path" stroke="#650D59" stroke-width="2"></line>
+        <line x1="99" y1="227.5" x2="202" y2="227.5" id="Path" stroke="#650D59" stroke-width="2"></line>
+        <line x1="103.558681" y1="230.5" x2="198.558681" y2="230.5" id="Path" stroke="#650D59" stroke-width="2"></line>
+        <line x1="107" y1="233.5" x2="195" y2="233.5" id="Path" stroke="#650D59" stroke-width="2"></line>
+        <line x1="110" y1="236.5" x2="190" y2="236.5" id="Path" stroke="#650D59" stroke-width="2"></line>
+        <line x1="113" y1="238.5" x2="187" y2="238.5" id="Path" stroke="#650D59" stroke-width="2"></line>
+        <line x1="117" y1="240.5" x2="184" y2="240.5" id="Path" stroke="#650D59" stroke-width="2"></line>
+        <line x1="89.5" y1="213.5" x2="216.5" y2="213.5" id="Path" stroke="#650D59" stroke-width="3"></line>
+        <polygon id="Path-2" fill="#650D59" points="122.098921 240.5 178.993018 240.5 150.6889 269.04679"></polygon>
+    </g>
+</svg>

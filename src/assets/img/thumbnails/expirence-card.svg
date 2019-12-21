@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Expirence Card</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Expirence-Card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#650D59" x="0" y="0" width="300" height="300"></rect>
+        <path d="" id="Path-3" stroke="#979797"></path>
+        <path d="" id="Path-6" stroke="#979797"></path>
+        <text id="EXPIRENCE" stroke="#F6019D" font-family="VCROSDMono, VCR OSD Mono" font-size="47" font-weight="normal" letter-spacing="1.185586" fill="#FFFFFF" fill-opacity="0.5">
+            <tspan x="19.8623493" y="59">EXPIRENCE</tspan>
+        </text>
+        <text id="EXPIRENCE" stroke="#F6019D" font-family="VCROSDMono, VCR OSD Mono" font-size="47" font-weight="normal" letter-spacing="1.185586" fill="#FFFFFF" fill-opacity="0.5">
+            <tspan x="19.8623493" y="95">EXPIRENCE</tspan>
+        </text>
+        <text id="EXPIRENCE" stroke="#F6019D" font-family="VCROSDMono, VCR OSD Mono" font-size="47" font-weight="normal" letter-spacing="1.185586" fill="#FFFFFF" fill-opacity="0.5">
+            <tspan x="19.8623493" y="131">EXPIRENCE</tspan>
+        </text>
+        <text id="EXPIRENCE" stroke="#F6019D" font-family="VCROSDMono, VCR OSD Mono" font-size="47" font-weight="normal" letter-spacing="1.185586" fill="#FFFFFF" fill-opacity="0.5">
+            <tspan x="19.8623493" y="167">EXPIRENCE</tspan>
+        </text>
+        <text id="EXPIRENCE" stroke="#F6019D" font-family="VCROSDMono, VCR OSD Mono" font-size="47" font-weight="normal" letter-spacing="1.185586" fill="#FFFFFF" fill-opacity="0.5">
+            <tspan x="19.8623493" y="203">EXPIRENCE</tspan>
+        </text>
+        <text id="EXPIRENCE" stroke="#F6019D" font-family="VCROSDMono, VCR OSD Mono" font-size="47" font-weight="normal" letter-spacing="1.185586" fill="#FFFFFF" fill-opacity="0.5">
+            <tspan x="19.8623493" y="239">EXPIRENCE</tspan>
+        </text>
+        <text id="EXPIRENCE" stroke="#F6019D" font-family="VCROSDMono, VCR OSD Mono" font-size="47" font-weight="normal" letter-spacing="1.185586" fill="#FFFFFF" fill-opacity="0.5">
+            <tspan x="19.8623493" y="275">EXPIRENCE</tspan>
+        </text>
+        <g id="Top-Layer" transform="translate(20.862349, 24.000000)" fill="#FFFFFF" fill-opacity="0.8" font-family="VCROSDMono, VCR OSD Mono" font-size="47" font-weight="normal" letter-spacing="1.185586" stroke="#920075" stroke-width="2">
+            <text id="EXPIRENCE">
+                <tspan x="0" y="77">EXPIRENCE</tspan>
+            </text>
+            <text id="EXPIRENCE">
+                <tspan x="0" y="113">EXPIRENCE</tspan>
+            </text>
+            <text id="EXPIRENCE">
+                <tspan x="0" y="149">EXPIRENCE</tspan>
+            </text>
+            <text id="EXPIRENCE">
+                <tspan x="0" y="185">EXPIRENCE</tspan>
+            </text>
+            <text id="EXPIRENCE">
+                <tspan x="0" y="221">EXPIRENCE</tspan>
+            </text>
+            <text id="EXPIRENCE">
+                <tspan x="0" y="257">EXPIRENCE</tspan>
+            </text>
+            <text id="EXPIRENCE">
+                <tspan x="0" y="41">EXPIRENCE</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
