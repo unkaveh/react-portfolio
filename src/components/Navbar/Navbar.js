@@ -10,7 +10,7 @@ class NavBar extends Component {
         <AppBar position="static" color="default">
           <Toolbar>
             <Typography variant="h6" color="inherit">
-              Photos
+              Kaveh Afroukhteh
             </Typography>
           </Toolbar>
         </AppBar>
