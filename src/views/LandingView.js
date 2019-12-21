@@ -12,7 +12,6 @@ class NavBar extends Component {
     return (
       <div>
         <Navbar />
-        <Typography variant='h4'>hello world </Typography>
         <ParticleBlock />
         <CenterGrid>
           <ProfileCard />
