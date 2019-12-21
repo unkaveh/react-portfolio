@@ -1,19 +1,50 @@
 {
-  "name": "kaveh-portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@material-ui/core": "^3.0.1",
-    "@material-ui/icons": "^3.0.1",
-    "prop-types": "^15.6.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5"
-  },
+  "name": "react-website-mui-boilerplate",
+  "version": "1.0.0",
+  "description": "A go-to boilerplate template for React projects. React + Redux + Babel + Webpack 4 + Material-ui 3.9.0. Jest for testing and esLint to keep code pretty.",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "lint": "node ./node_modules/eslint/bin/eslint.js ./src",
+    "lint:fix": "node ./node_modules/eslint/bin/eslint.js ./src --fix"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "babel",
+    "webpack",
+    "material ui",
+    "material design",
+    "boilerplate",
+    "eslint",
+    "axios"
+  ],
+  "author": "Kaveh Afroukhteh <afroukhtehk@gmail.com> (kavehafroukhteh.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.12.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-react": "^7.12.4",
+    "react-hot-loader": "^4.6.3",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.0",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "jest": "^23.6.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   }
 }
