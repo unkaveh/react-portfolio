@@ -3,13 +3,18 @@ import PropTypes from 'prop-types';
 import Particles from 'react-particles-js';
 import { withStyles } from '@material-ui/core/styles';
 
+import gradBg from '../../assets/img/grad-bg.png';
+
 
 const styles = theme => ({
   root: {
-    height: '50vh', 
+    height: '40vh', 
     width: '100vw',
-    backgroundColor: 'black',
-    clipPath: 'polygon(0 0, 100% 0, 100% 70%, 0 91%)'
+    backgroundImage: 'url(' + gradBg + ')',
+    backgroundSize: 'cover',
+    background: 'black',
+    clipPath: 'polygon(0 0, 100% 0, 100% 70%, 0 91%)',
+    '-webkit-clip-path': 'polygon(0 0, 100% 0, 100% 70%, 0 91%)'
   },
 });
 
