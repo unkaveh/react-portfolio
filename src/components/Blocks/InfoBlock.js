@@ -8,12 +8,17 @@ import { withStyles } from '@material-ui/core/styles';
 import educationImg from '../../assets/img/thumbnails/education-card.svg';
 import skillImg from '../../assets/img/thumbnails/skill-card.svg';
 import expirenceImg from '../../assets/img/thumbnails/expirence-card.svg';
+import infoBg from '../../assets/img/backgrounds/midarea-bg.png'
 
 
 const styles = theme => ({
   root: {
-    marginTop: '20%', 
-    marginBottom: '20%'
+    marginTop: '10%',
+    marginBottom: '10%',
+    paddingTop: '10%', 
+    paddingBottom: '10%',
+    backgroundImage: 'url(' + infoBg + ')',
+    
   },
 });
 

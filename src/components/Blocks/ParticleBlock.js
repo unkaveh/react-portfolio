@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Particles from 'react-particles-js';
 import { withStyles } from '@material-ui/core/styles';
 
-import gradBg from '../../assets/img/grad-bg.png';
+import gradBg from '../../assets/img/backgrounds/grad-bg.png';
 
 
 const styles = theme => ({

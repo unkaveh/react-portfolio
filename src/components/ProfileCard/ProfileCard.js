@@ -17,8 +17,9 @@ import Avatar from '@material-ui/core/Avatar'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import KavehPicture from '../../assets/img/kaveh-profile.png';
-import ReactLogo from '../../assets/img/react-logo.svg';
-import WebpackLogo from '../../assets/img/webpack-logo.svg';
+import ReactLogo from '../../assets/img/logos/react-logo.svg';
+import WebpackLogo from '../../assets/img/logos/webpack-logo.svg';
+import CSSLogo from '../../assets/img/logos/css3-logo.svg';
 
 const styles = theme => ({
   card: {
@@ -50,11 +51,13 @@ const styles = theme => ({
   }
 });
 
+
+
 class ProfileCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      expanded: false
+      expanded: true
     }
     this.handleExpandClick = this.handleExpandClick.bind(this);
   }
@@ -106,6 +109,12 @@ this.setState(state => ({ expanded: !state.expanded }));
                     <Avatar src={WebpackLogo} className={classes.cardIcons}/>
                   </ListItemAvatar>
                 <ListItemText primary="I know webpack" />
+              </ListItem>
+              <ListItem>
+                <ListItemAvatar>
+                    <img src={CSSLogo} className={classes.cardIcons}/>
+                  </ListItemAvatar>
+                <ListItemText primary="I really like to style" />
               </ListItem>
             </List>
         </CardContent>
